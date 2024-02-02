@@ -1,1 +1,1 @@
-# Sig
+# S.I.G. - SISTEMA INTEGRADO DE GESTÃO
