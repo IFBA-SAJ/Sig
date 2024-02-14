@@ -2,14 +2,14 @@ public class Morador {
     private String nome;
     private String bloco;
     private int numeroDoApartamento;
-    private String numeroDeTelefone;
+    private String email;
 
     
-    public Morador(String nome, String bloco, int numeroDoApartamento, String numeroDeTelefone) {
+    public Morador(String nome, String bloco, int numeroDoApartamento, String email) {
         this.nome = nome;
         this.bloco = bloco;
         this.numeroDoApartamento = numeroDoApartamento;
-        this.numeroDeTelefone = numeroDeTelefone;
+        this.email = email;
     }
 
     public String getNome() {
@@ -26,10 +26,12 @@ public class Morador {
         return numeroDoApartamento;
     }
 
-
-    public String getNumeroDeTelefone() {
-        return numeroDeTelefone;
+    public String getEmail() {
+        return email;
     }
+
+
+
     
 
 }
