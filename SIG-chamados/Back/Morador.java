@@ -15,17 +15,12 @@ public class Morador {
     public String getNome() {
         return nome;
     }
-
-
     public String getBloco() {
         return bloco;
     }
-
-
     public int getNumeroDoApartamento() {
         return numeroDoApartamento;
     }
-
     public String getEmail() {
         return email;
     }
